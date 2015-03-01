@@ -1,1 +1,2 @@
 ez-setup==0.9
+Django==1.7
