@@ -10,4 +10,7 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
        (r"^main/$", main_page.as_view()),
+       
+       
+       
 )
