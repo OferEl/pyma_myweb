@@ -1,1 +1,1 @@
-web: gunicorn pypa-oferel.wsgi --log-file -
+web: gunicorn pymamyweb.wsgi --log-file -
