@@ -11,7 +11,7 @@ import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "pyma_myweb.settings")
 
 from django.core.wsgi import get_wsgi_application
-application = get_wsgi_application()
+#application = get_wsgi_application()
 
 
 
