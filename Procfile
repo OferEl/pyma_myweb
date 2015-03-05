@@ -1,1 +1,1 @@
-web: gunicorn pymaoferel.wsgi --log-file -
+web: gunicorn pyma_myweb.wsgi --log-file -
