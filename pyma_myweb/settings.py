@@ -111,11 +111,7 @@ USE_TZ = True
 
 #STATICFILES_DIRS = (
 #   os.path.join(BASE_DIR, "static"),
-#)
-
-#STATIC_ROOT = '/static/'
-
-
+#
 # Parse database configuration from $DATABASE_URL
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
@@ -127,15 +123,10 @@ ALLOWED_HOSTS = ['*']
 # Static asset configuration
 
 #BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+###############
 STATIC_ROOT = 'staticfiles'
-#STATIC_ROOT = 'static'
 STATIC_URL = '/static/'
-
-
-#STATIC_URL = (
-#    os.path.join(BASE_DIR, '/static/'),
-#)
-
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+############
