@@ -8,8 +8,9 @@ urlpatterns = patterns('',
     # url(r'^$', 'pyma_myweb.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^$', main_page.as_view()),
+       (r'^admin/', include(admin.site.urls)),
        (r"^main/$", main_page.as_view()),
-       (r"^https://pymaoferel.herokuapp.com//$", main_page.as_view()),
+     
        
 )
