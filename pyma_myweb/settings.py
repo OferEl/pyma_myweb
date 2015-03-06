@@ -27,8 +27,12 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
+#TEMPLATE_DIRS = (
+#    'C:/Users/oferel/workspace/pyma_myweb/template',
+#)
+
 TEMPLATE_DIRS = (
-    'C:/Users/oferel/workspace/pyma_myweb/template',
+    os.path.join(BASE_DIR, 'template'),
 )
 
 ALLOWED_HOSTS = []
