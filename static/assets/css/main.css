@@ -116,14 +116,14 @@ a:after {
 }
 
 #section-topbar ul#nav > li {
-	display: block;
+	display: white;
     float: left;
     padding: 0;
 }
 
 
 #section-topbar ul#nav a {
-  display: block;
+  display: white;
   font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
   padding: 18px 20px 18px 20px;
@@ -175,7 +175,7 @@ a:after {
 
 #headerwrap h1 {
 	font-size: 80px;
-	color: blue;
+	color: black;
 }
 
 #headerwrap h3 {
